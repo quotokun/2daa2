@@ -1,5 +1,5 @@
 #!/bin/bash
-yum install smartctl -y
+yum install smartmontools -y
 # Get list of physical disks
 disks=$(lsblk -ndo NAME)
 
